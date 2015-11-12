@@ -1,0 +1,47 @@
+.container{
+	width: 50%;
+	margin: 0 auto;
+	height: 100px;
+	font-family: Tomah;
+	background-color: rgb(255,255,255);
+}
+
+     body {
+            margin: 0;
+            padding: 20px;
+            background: pink;
+            color: white;
+
+            font-family: Tahoma, Geneva, sans-serif;
+            font-size: 24px;
+        }
+
+        .example.style {
+            padding: 0 0 10px;
+            margin-bottom: 20px;
+			box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+			text-align: center;
+			background: url(nightsky.jpg);
+        }
+
+        h1 {
+            margin: 0 0 10px;
+            padding: 10px;
+            font-size: 16px;
+            font-weight: normal;
+            
+        }
+
+        .splitflap {
+            margin: 0 auto;
+
+            -webkit-perspective-origin: top center;
+            -moz-perspective-origin: top center;
+            -ms-perspective-origin: top center;
+            perspective-origin: top center;
+
+            -webkit-perspective: 900px;
+            -moz-perspective: 900px;
+            -ms-perspective: 900px;
+            perspective: 900px;
+        }
